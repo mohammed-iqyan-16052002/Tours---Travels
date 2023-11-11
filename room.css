@@ -1,0 +1,1477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/room1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container .nav {
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .nav p {
+    color: white;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    left: 1%;
+}
+
+.container .nav nav {
+    width: 70%;
+}
+
+.container .nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .nav nav a {
+    font-size: 16px;
+    color: white;
+}
+
+.container .nav nav li {
+    list-style: none;
+}
+
+.container .nav button {
+    padding: 1% 1.5%;
+    font-size: 9px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.container .nav button:hover {
+    background: white;
+    color: black;
+    transition: 1s;
+}
+
+.container .para {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .p {
+    width: 54%;
+    height: 60vh;
+    position: relative;
+    right: 17%;
+    top: 10%;
+}
+
+.container .para .p p {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: white;
+}
+
+.container .para .p .span {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.container .para .p .span span {
+    color: white;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.second {
+    width: 100%;
+    height: 330vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.second #head {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    margin-left: 3%;
+    top: 3%;
+}
+
+.second .p {
+    padding: 0px 40px;
+    position: relative;
+    top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second .p p {
+    width: 50%;
+    font-family: monospace;
+    font-size: 16px;
+    color: rgb(92, 91, 91);
+}
+
+.second .p a button {
+    background: #2b2b2b;
+    padding: 15px 40px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    font-family: monospace;
+    color: white;
+
+}
+
+.second .p a button:hover {
+    background-color: rgb(67, 66, 66);
+    transition: 1s;
+}
+
+.second .rooms {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.second .rooms .room {
+    width: 46%;
+    height: 90vh;
+
+}
+
+.second .rooms .room img {
+    width: 100%;
+    height: 55vh;
+}
+
+.second .rooms .room h1 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 3%;
+
+}
+
+.second .rooms .room p {
+    width: 80%;
+    font-size: 16px;
+    color: rgb(92, 91, 91);
+    margin-top: 3%;
+    font-family: monospace;
+}
+
+.second .rooms .room a button {
+    background: transparent;
+    padding: 8px 16px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: monospace;
+    color: black;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 3%;
+}
+
+.five {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/img7.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.five .para {
+    height: 40vh;
+    width: 65%;
+    text-align: center;
+
+
+}
+
+.five .para p {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: white;
+}
+
+.five .para #p1 {
+    font-family: auto;
+    font-size: 18px;
+    margin-top: 3%;
+}
+
+.five .para span {
+    color: white;
+    font-family: auto;
+    position: relative;
+    top: 15%;
+    font-size: 18px;
+}
+
+.five p {
+    color: white;
+    font-size: 40px;
+}
+
+.contain {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: white;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #24262b;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #24262b;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #838282;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #24262b;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #efefef;
+    background-color: #24262b;
+}
+@media(max-width:950px){
+    .container .nav p {
+        color: white;
+        font-size: 24px;
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        left: 1%;
+    }
+
+    .container .nav nav a {
+        font-size: 16px;
+        color: white;
+    }
+
+    .container .nav button {
+        padding: 1% 1.5%;
+        position: relative;
+        right: 1%;
+        font-size: 9px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        cursor: pointer;
+    }
+    .second #head {
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        margin-left: 3%;
+        top: 2%;
+    }
+    .second .p p {
+        width: 61%;
+        font-family: monospace;
+        font-size: 16px;
+        color: rgb(92, 91, 91);
+    }
+    .second .p {
+        padding: 0px 27px;
+        position: relative;
+        top: 1%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .second .rooms .room p {
+        width: 100%;
+        font-size: 16px;
+        color: rgb(92, 91, 91);
+        margin-top: 3%;
+        font-family: monospace;
+    }
+    .second .rooms .room h1 {
+        font-family: 'Playfair Display', serif;
+        margin-top: 3%;
+        font-size: 30px;
+    }
+
+}
+@media(max-width:900px){
+    .container .nav {
+        width: 100%;
+        height: 10vh;
+        position: relative;
+        top: 2%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container .nav p {
+        color: white;
+        font-size: 23px;
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        left: 1%;
+    }
+
+    .container .p {
+        width: 61%;
+        height: 60vh;
+        position: relative;
+        right: 16%;
+        top: 10%;
+    }
+
+    .container .para .p .span {
+        width: 123%;
+        margin-top: 3%;
+    }
+    .second .p {
+        padding: 0px 27px;
+        height: 20vh;
+        position: relative;
+        top: 1%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .second #head {
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        margin-left: 3%;
+        top: 1%;
+    }
+    .second .p a button {
+        background: #2b2b2b;
+        padding: 12px 25px;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        font-family: monospace;
+        color: white;
+    }
+    .second .rooms .room img {
+        width: 100%;
+        height: 52vh;
+    }
+    .second .rooms .room h1 {
+        font-family: 'Playfair Display', serif;
+        margin-top: 3%;
+        font-size: 28px;
+    }
+    .second .rooms .room p {
+        width: 100%;
+        font-size: 15px;
+        color: rgb(92, 91, 91);
+        margin-top: 3%;
+        font-family: monospace;
+    }
+    .five .para {
+        height: 40vh;
+        width: 89%;
+        text-align: center;
+    }
+
+    .five .para p {
+        font-family: 'Playfair Display', serif;
+        font-size: 34px;
+        color: white;
+    }
+}
+@media(max-width:850px){
+    .container .nav p {
+        color: white;
+        font-size: 22px;
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        left: 1%;
+    }
+
+    .container .nav nav {
+        width: 65%;
+
+    }
+
+    .container .nav nav a {
+        font-size: 15px;
+        color: white;
+    }
+
+    .container .p {
+        width: 65%;
+        height: 60vh;
+        position: relative;
+        right: 12%;
+        top: 10%;
+    }
+
+    .container .para .p p {
+        font-family: 'Playfair Display', serif;
+        font-size: 58px;
+        color: white;
+    }
+
+    .container .para .p .span {
+        width: 120%;
+        margin-top: 3%;
+    }
+
+    .container .para .p button {
+        padding: 9px 27px;
+        font-size: 17px;
+        font-family: monospace;
+        color: rgb(92, 91, 91);
+        margin-top: 5%;
+        cursor: pointer;
+    }
+    .second .p p {
+        width: 61%;
+        font-family: monospace;
+        font-size: 15px;
+        color: rgb(92, 91, 91);
+    }
+    .second .rooms .room img {
+        width: 100%;
+        height: 50vh;
+    }
+    .second .rooms .room h1 {
+        font-family: 'Playfair Display', serif;
+        margin-top: 3%;
+        font-size: 26px;
+    }
+}
+@media(max-width:800px){
+    .container .nav nav a {
+        font-size: 14px;
+        color: white;
+    }
+
+    .container .nav p {
+        color: white;
+        font-size: 21px;
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        left: 1%;
+    }
+
+    .container .p {
+        width: 66%;
+        height: 60vh;
+        position: relative;
+        right: 12%;
+        top: 10%;
+    }
+
+    .container .para .p p {
+        font-family: 'Playfair Display', serif;
+        font-size: 57px;
+        color: white;
+    }
+
+    .container .para .p .span {
+        width: 107%;
+        margin-top: 3%;
+    }
+
+    .container .para .p .span span {
+        color: white;
+        font-size: 19px;
+    }
+
+    .container .para .p button {
+        padding: 9px 27px;
+        font-size: 17px;
+        font-family: monospace;
+        color: rgb(92, 91, 91);
+        margin-top: 7%;
+        cursor: pointer;
+    }
+    .second #head {
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        margin-left: 3%;
+        font-size: 30px;
+        top: 2%;
+    }
+    .second .p p {
+        width: 62%;
+        font-family: monospace;
+        font-size: 15px;
+        color: rgb(92, 91, 91);
+    }
+    .second .rooms .room img {
+        width: 100%;
+        height: 48vh;
+    }
+    .second .rooms .room h1 {
+        font-family: 'Playfair Display', serif;
+        margin-top: 3%;
+        font-size: 24px;
+    }
+    .second .rooms {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .second .rooms .room {
+        width: 46%;
+        height: 80vh;
+    }
+    .second {
+        width: 100%;
+        height: 300vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .five .para p {
+        font-family: 'Playfair Display', serif;
+        font-size: 33px;
+        color: white;
+    }
+
+    .five .para #p1 {
+        font-family: auto;
+        font-size: 19px;
+        margin-top: 3%;
+    }
+
+    .five .para span {
+        color: white;
+        font-family: monospace;
+        position: relative;
+        top: 20%;
+        font-size: 18px;
+    }
+
+    .five p {
+        color: white;
+        font-size: 38px;
+    }
+}
+@media(max-width:750px){
+    .container .nav p {
+        color: white;
+        font-size: 21px;
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        left: 2%;
+    }
+
+    .container .p {
+        width: 70%;
+        height: 60vh;
+        position: relative;
+        right: 13%;
+        top: 10%;
+    }
+
+    .container .para .p p {
+        font-family: 'Playfair Display', serif;
+        font-size: 55px;
+        color: white;
+    }
+
+    .container .para .p .span {
+        width: 125%;
+        margin-top: 3%;
+    }
+
+    .container .para .p button {
+        padding: 9px 27px;
+        background: white;
+        font-size: 17px;
+        border: none;
+        font-family: monospace;
+        color: rgb(92, 91, 91);
+        margin-top: 7%;
+        cursor: pointer;
+    }
+    .second .p {
+        padding: 0px 27px;
+        height: 18vh;
+        position: relative;
+        top: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .second .p p {
+        width: 100%;
+        font-family: monospace;
+        font-size: 16px;
+        color: rgb(92, 91, 91);
+    }
+    .second {
+        width: 100%;
+        height: 725vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .second .rooms {
+        width: 100%;
+        height: 225vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .second .rooms .room {
+        width: 92%;
+        height: 109vh;
+    }
+    .second .rooms .room img {
+        width: 83%;
+        margin-left: 9%;
+        height: 75vh;
+    }
+    .second #head {
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        margin-left: 3%;
+        font-size: 30px;
+        top: 0%;
+    }
+    .second .rooms .room h1 {
+        font-family: 'Playfair Display', serif;
+        margin-top: 3%;
+        font-size: 29px;
+    }
+    .second .rooms .room p {
+        width: 100%;
+        font-size: 16px;
+        color: rgb(92, 91, 91);
+        margin-top: 3%;
+        font-family: monospace;
+    }
+    .five .para {
+        height: 40vh;
+        width: 92%;
+        text-align: center;
+    }
+
+    .five .para #p1 {
+        font-family: auto;
+        font-size: 20px;
+        margin-top: 3%;
+    }
+
+    .five p {
+        color: white;
+        font-size: 37px;
+    }
+}
+@media(max-width:700px){
+    .container .p {
+        width: 72%;
+        height: 60vh;
+        position: relative;
+        right: 12%;
+        top: 10%;
+    }
+    .container .para .p p {
+        font-family: 'Playfair Display', serif;
+        font-size: 53px;
+        color: white;
+    }
+    .container .para .p .span span {
+        color: white;
+        font-size: 18px;
+    }
+    .container .para .p button {
+        padding: 13px 32px;
+        background: white;
+        font-size: 17px;
+        border: none;
+        font-family: monospace;
+        color: rgb(92, 91, 91);
+        margin-top: 7%;
+        cursor: pointer;
+    }
+    .second .p {
+        padding: 0px 22px;
+        height: 18vh;
+        position: relative;
+        top: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .second .rooms .room img {
+        width: 88%;
+        margin-left: 5%;
+        height: 75vh;
+    }
+    
+    .second .rooms .room p {
+        width: 100%;
+        font-size: 17px;
+        color: rgb(92, 91, 91);
+        margin-top: 3%;
+        font-family: monospace;
+    }
+    .second {
+        width: 100%;
+        height: 725vh;
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .second .rooms .room {
+        width: 100%;
+        height: 109vh;
+    }
+    
+    .five .para p {
+        font-family: 'Playfair Display', serif;
+        font-size: 32px;
+        color: white;
+    }
+    .five p {
+        color: white;
+        font-size: 35px;
+    }
+}
+@media(max-width:650px){
+    .container .nav {
+        width: 100%;
+        height: 10vh;
+        position: relative;
+        top: 1%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container .nav p {
+        color: white;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        left: 2%;
+    }
+    .container .para .p p {
+        font-family: 'Playfair Display', serif;
+        font-size: 51px;
+        color: white;
+    }
+    .container .nav nav a {
+        font-size: 13px;
+        color: white;
+    }
+    .container .para .p button {
+        padding: 12px 28px;
+        background: white;
+        font-size: 17px;
+        border: none;
+        font-family: monospace;
+        color: rgb(92, 91, 91);
+        margin-top: 7%;
+        cursor: pointer;
+    }
+    .second .p {
+        padding: 0px 0px;
+        height: 18vh;
+        position: relative;
+        top: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .second .rooms .room img {
+        width: 100%;
+        margin-left: 0%;
+        height: 75vh;
+    }
+    .second .rooms .room p {
+        width: 100%;
+        font-size: 17px;
+        color: rgb(92, 91, 91);
+        margin-top: 3%;
+        font-family: monospace;
+    }
+    .second {
+        width: 100%;
+        height: 725vh;
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .second .rooms .room {
+        width: 100%;
+        height: 109vh;
+    }
+    .second #head {
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        margin-left: 0%;
+        font-size: 30px;
+        top: 0%;
+    }
+    .five p {
+        color: white;
+        font-size: 33px;
+    }
+    .five .para #p1 {
+        font-family: auto;
+        font-size: 19px;
+        margin-top: 3%;
+    }
+}
+@media(max-width:600px){
+    
+    .container .nav p {
+        color: white;
+        font-size: 17px;
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        left: 2%;
+    }
+    .container .nav nav {
+        width: 60%;
+    }
+    .container .nav nav a {
+        font-size: 13px;
+        color: white;
+    }
+    .container .p {
+        width: 79%;
+        height: 60vh;
+        position: relative;
+        right: 8%;
+        top: 10%;
+    }
+    .container .para .p .span {
+        width: 120%;
+        margin-top: 3%;
+    }
+    .container .para .p button {
+        padding: 12px 28px;
+        background: white;
+        font-size: 16px;
+        border: none;
+        font-family: monospace;
+        color: rgb(92, 91, 91);
+        margin-top: 7%;
+        cursor: pointer;
+    }
+    .five .para #p1 {
+        font-family: auto;
+        font-size: 18px;
+        margin-top: 3%;
+    }
+    .five .para span {
+        color: white;
+        font-family: monospace;
+        position: relative;
+        top: 20%;
+        font-size: 19px;
+    }
+    .five p {
+        color: white;
+        font-size: 30px;
+    }
+
+}
+@media(max-width:550px){
+    .container {
+        width: 100%;
+        height: 98vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .container .nav {
+        width: 100%;
+        height: 8vh;
+        position: relative;
+        top: 1%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container .p {
+        width: 85%;
+        height: 60vh;
+        position: relative;
+        right: 5%;
+        top: 10%;
+    }
+    .container .para .p p {
+        font-family: 'Playfair Display', serif;
+        font-size: 55px;
+        color: white;
+    }
+    .container .para .p .span {
+        width: 110%;
+        margin-top: 3%;
+    }
+    .second .p p {
+        width: 100%;
+        font-family: monospace;
+        font-size: 14px;
+        color: rgb(92, 91, 91);
+    }
+    .second .rooms .room img {
+        width: 100%;
+        margin-left: 0%;
+        height: 70vh;
+    }
+    .second .rooms .room h1 {
+        font-family: 'Playfair Display', serif;
+        margin-top: 3%;
+        font-size: 27px;
+    }
+    .second .rooms .room {
+        width: 100%;
+        height: 105vh;
+    }
+    .second {
+        width: 100%;
+        height: 683vh;
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .second .rooms {
+        width: 100%;
+        height: 213vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .second .rooms .room p {
+        width: 100%;
+        font-size: 16px;
+        color: rgb(92, 91, 91);
+        margin-top: 3%;
+        font-family: monospace;
+    }
+    .five {
+        width: 100%;
+        height: 95vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .five .para {
+        height: 43vh;
+        width: 92%;
+        text-align: center;
+    }
+    .five .para p {
+        font-family: 'Playfair Display', serif;
+        font-size: 34px;
+        color: white;
+    }
+    .five p {
+        color: white;
+        font-size: 28px;
+    }
+    .five i{
+        font-size: 25px;
+    }
+}
+@media(max-width:500px){
+    .container .nav nav {
+        width: 55%;
+    }
+    .container .nav p {
+        color: white;
+        font-size: 15px;
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        left: 2%;
+    }
+    .container .nav nav a {
+        font-size: 11px;
+        color: white;
+    }
+    .container .nav button {
+        padding: 1% 1.5%;
+        position: relative;
+        right: 1%;
+        font-size: 8px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        cursor: pointer;
+    }
+    .container .para .p p {
+        font-family: 'Playfair Display', serif;
+        font-size: 38px;
+        color: white;
+    }
+    .container .para .p .span span {
+        color: white;
+        font-size: 17px;
+    }
+    .container .para .p .span {
+        width: 108%;
+        margin-top: 3%;
+    }
+    .container .p {
+        width: 85%;
+        height: 60vh;
+        position: relative;
+        right: 5%;
+        top: 15%;
+    }
+    .container .para .p button {
+        padding: 9px 28px;
+        background: white;
+        font-size: 16px;
+        border: none;
+        font-family: monospace;
+        color: rgb(92, 91, 91);
+        margin-top: 7%;
+        cursor: pointer;
+    }
+    .second #head {
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        margin-left: 0%;
+        font-size: 28px;
+        top: 0%;
+    }
+    .second .rooms .room img {
+        width: 100%;
+        margin-left: 0%;
+        height: 60vh;
+    }
+    .second .rooms .room h1 {
+        font-family: 'Playfair Display', serif;
+        margin-top: 3%;
+        font-size: 25px;
+    }
+    .second .rooms .room p {
+        width: 100%;
+        font-size: 15px;
+        color: rgb(92, 91, 91);
+        margin-top: 3%;
+        font-family: monospace;
+    }
+    
+    .second .rooms .room {
+        width: 100%;
+        height: 95vh;
+    }
+    .second .rooms {
+        width: 100%;
+        height: 195vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .second {
+        width: 100%;
+        height: 625vh;
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .second .p {
+        padding: 0px 0px;
+        height: 20vh;
+        position: relative;
+        top: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .five .para p {
+        font-family: 'Playfair Display', serif;
+        font-size: 28px;
+        color: white;
+    }
+}
+@media(max-width:450px){
+    .container .nav nav {
+        width: 50%;
+    }
+    .container .nav button {
+        padding: 6px 8px;
+        position: relative;
+        right: 4px;
+        font-size: 8px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        cursor: pointer;
+    }
+    .container .nav nav a {
+        font-size: 10px;
+        color: white;
+    }
+    .container .para .p .span {
+        width: 108%;
+        margin-top: 5%;
+    }
+    .container .para .p button {
+        padding: 9px 28px;
+        background: white;
+        font-size: 16px;
+        border: none;
+        font-family: monospace;
+        color: rgb(92, 91, 91);
+        margin-top: 9%;
+        cursor: pointer;
+    }
+    .container .p {
+        width: 85%;
+        height: 60vh;
+        position: relative;
+        right: 4%;
+        top: 15%;
+    } 
+    .second #head {
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        margin-left: 0%;
+        font-size: 25px;
+        top: 0%;
+    }
+    .second .p p {
+        width: 100%;
+        font-family: monospace;
+        font-size: 13px;
+        color: rgb(92, 91, 91);
+    }
+    .second .rooms .room img {
+        width: 100%;
+        margin-left: 0%;
+        height: 55vh;
+    }
+    .second .rooms .room h1 {
+        font-family: 'Playfair Display', serif;
+        margin-top: 3%;
+        font-size: 23px;
+    }
+    .second .rooms .room {
+        width: 100%;
+        height: 87vh;
+    }
+    .second .rooms {
+        width: 100%;
+        height: 185vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .second {
+        width: 100%;
+        height: 600vh;
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .five {
+        width: 100%;
+        height: 90vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:400px){
+    .container {
+        width: 100%;
+        height: 85vh;
+        background-size: cover;
+    }
+    .container .nav p {
+    color: white;
+    font-size: 13px;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    left: 2%;
+}
+.container .nav button {
+    padding: 6px 8px;
+    position: relative;
+    right: 4px;
+    font-size: 7px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+.container .nav nav a {
+    font-size: 9px;
+    color: white;
+}
+.container .para .p p {
+    font-family: 'Playfair Display', serif;
+    font-size: 37px;
+    color: white;
+} 
+.container .para .p .span span {
+    color: white;
+    font-size: 14px;
+}
+.second .p a button {
+    background: #2b2b2b;
+    padding: 12px 25px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    font-family: monospace;
+    color: white;
+}
+.second .p {
+    padding: 0px 0px;
+    height: 16vh;
+    position: relative;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.second .rooms .room img {
+    width: 100%;
+    margin-left: 0%;
+    height: 41vh;
+}
+.second .rooms .room {
+    width: 100%;
+    height: 71vh;
+}
+.second .rooms {
+    width: 100%;
+    height: 142vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.second {
+    width: 100%;
+    height: 490vh;
+    display: flex;
+    padding: 0px 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.five {
+    width: 100%;
+    height: 75vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.five .para #p1 {
+    font-family: auto;
+    font-size: 18px;
+    margin-top: 5%;
+}
+.five .para {
+    height: 45vh;
+    width: 92%;
+    text-align: center;
+}
+.five .para span {
+    color: white;
+    font-family: monospace;
+    position: relative;
+    top: 13%;
+    font-size: 19px;
+}
+
+}
+@media(max-width:350px){
+    .container .nav p {
+        color: white;
+        font-size: 12px;
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        left: 2%;
+    }
+    .container .nav nav {
+        width: 48%;
+    }
+    .container .nav nav a {
+        font-size: 8px;
+        color: white;
+    }
+    .container .nav button {
+        padding: 6px 8px;
+        position: relative;
+        right: 4px;
+        font-size: 6px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        cursor: pointer;
+    }
+    .container .para .p p {
+        font-family: 'Playfair Display', serif;
+        font-size: 37px;
+        color: white;
+    }
+    .container .para .p .span span {
+        color: white;
+        font-size: 14px;
+    }
+    .container .p {
+        width: 85%;
+        height: 60vh;
+        position: relative;
+        right: 4%;
+        top: 8%;
+    }
+    .second .rooms {
+        width: 100%;
+        height: 148vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .second .rooms .room {
+        width: 100%;
+        height: 74vh;
+    }
+    .five .para p {
+        font-family: 'Playfair Display', serif;
+        font-size: 26px;
+        color: white;
+    }
+    .five .para {
+        height: 45vh;
+        width: 92%;
+        text-align: center;
+    }
+    .five .para span {
+        color: white;
+        font-family: monospace;
+        position: relative;
+        top: 18%;
+        font-size: 19px;
+    }
+    .five p {
+        color: white;
+        font-size: 26px;
+    }
+}
